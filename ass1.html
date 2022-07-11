@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var flag=true
+        const arrayElements = [5, 10, 0, 20, 45];
+const firstElement = arrayElements[0];
+console.log(firstElement);
+for(i = 2; i <= firstElement- 1; i++)
+                if (firstElement % i == 0) {
+                    flag = false;
+                    break;
+                }
+                  
+                
+            if (flag == true)
+                console.log(firstElement+ " is prime");
+            else
+                console.log(firstElement+ " is not prime");
+        
+    </script>
+    
+</body>
+</html>
